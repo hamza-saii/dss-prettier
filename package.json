@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "Shared Prettier config for DotSharpSpace Angular projects",
   "main": "index.json",
-  "repository": "https://github.com/hamza-saii/dss-prettier.git",
-  "author": {
-    "name": "Hamza SAII",
-    "email": "hamza.saii@outlook.com",
-    "url": "https://github.com/hamza-saii"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamza-saii/dss-prettier.git"
   },
+  "author": "Hamza SAII <hamza.saii@outlook.com> (https://github.com/hamza-saii)",
   "license": "MIT",
   "private": false,
   "keywords": [
@@ -22,5 +21,10 @@
   "peerDependencies": {
     "prettier": "^2.5.1",
     "typescript": ">=4.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/hamza-saii/dss-prettier/issues"
+  },
+  "homepage": "https://github.com/hamza-saii/dss-prettier#readme",
+  "devDependencies": {}
 }
