@@ -1,0 +1,27 @@
+{
+  "name": "@dotsharpspace/prettier-config",
+  "version": "1.0.0",
+  "description": "Shared Prettier config for DotSharpSpace Angular projects",
+  "main": "index.js",
+  "repository": "https://github.com/hamza-saii/dss-prettier.git",
+  "author": {
+    "name": "Hamza SAII",
+    "email": "hamza.saii@outlook.com",
+    "url": "https://github.com/hamza-saii"
+  },
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+      "prettier",
+      "configuration",
+      "config"
+    ],
+    "scripts": {
+      "format": "npx prettier --write \"**/*.{ts,tsx,html,css,scss,js,json}\""
+    },
+    "peerDependencies": {
+      "prettier": "^2.5.1",
+      "typescript": ">=4.0.2"
+    }
+
+}
